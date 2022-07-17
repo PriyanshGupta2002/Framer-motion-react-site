@@ -1,0 +1,25 @@
+.scrollToTop{
+    background-color: rgb(18, 18, 88);
+    border-radius: 100%;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    height: 4rem;
+    width: 4rem;
+    z-index: 20;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+    svg{
+        font-size: 2rem;
+        color: white;
+    }
+    &:hover{
+        background-color: white;
+        svg{
+            color: rgb(18, 18, 88);
+        }
+    }
+}   
